@@ -4,7 +4,7 @@ Page scrolling in vanilla JS. Based on [Vanilla Page Scrolling](https://pawelgrz
 
 #### HTML
 
-Set your anchor ID, scroll speed and top offset by adding data attributes to your nav links.
+Set your anchor ID, scroll speed and top offset within the data attributes and you're away.
 
 ```html
 <a class="anchor" data-anchor="#section-1" data-speed="500" data-offset="0" href="#">Link</a>
