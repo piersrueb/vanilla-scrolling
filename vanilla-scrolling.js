@@ -52,7 +52,6 @@ const scrollMe = (e) => {
 	let anchor = e.currentTarget.dataset.anchor;
     let speed = e.currentTarget.dataset.speed;
 	let mo = e.currentTarget.dataset.offset;
-    let ease = e.currentTarget.dataset.easing;
 	scrollIt(document.querySelector(anchor), speed, 'easeInOutQuart', 0, mo);
 	e.preventDefault();
 }
