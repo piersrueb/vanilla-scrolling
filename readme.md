@@ -2,8 +2,6 @@
 
 Page scrolling in vanilla JS. Based on [Vanilla Page Scrolling](https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/) by Pawel Grzybek with a few extras thrown in.
 
-#### HTML
-
 Set your anchor ID, scroll speed and top offset within the data attributes and you're away.
 
 ```html
