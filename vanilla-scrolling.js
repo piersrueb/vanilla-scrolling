@@ -51,9 +51,9 @@ const scrollIt = (destination, duration = 200, easing = 'linear', callback, menu
 const scrollMe = (e) => {
 	let anchor = e.currentTarget.dataset.anchor;
     let speed = e.currentTarget.dataset.speed;
-	let mo = e.currentTarget.dataset.offset;
+	let myOffset = e.currentTarget.dataset.offset;
     let ease = e.currentTarget.dataset.easing;
-	scrollIt(document.querySelector(anchor), speed, 'easeInOutQuart', 0, mo);
+	scrollIt(document.querySelector(anchor), speed, 'easeInOutQuart', 0, myOffset);
 	e.preventDefault();
 }
 
